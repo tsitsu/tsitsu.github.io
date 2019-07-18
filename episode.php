@@ -8,11 +8,6 @@
 <div class="container">
 <div class="row">
 <div class="col-md-9">
-<div class="card border-0 shadoww mb-4">
-<div class="card-body-bek">
-download <?php echo $animesingle->title; ?> eps <?php echo $eps; ?> sub indo, batch, 360p, 480p, 720p, mkv, mp4, anoboy, meownime, drivenime, streaming, nonton dan download judul batch indonesia lengkap samehadaku.
-</div>
-</div>
 <div class="card border-0 mb-2">
 <div class="card-body">
 <h1 style="font-size: 1.2rem; ">Nonton <?php echo $animesingle->title; ?> Episode <?php echo $eps; ?> Subtitle Indonesia</h1>
@@ -22,7 +17,7 @@ download <?php echo $animesingle->title; ?> eps <?php echo $eps; ?> sub indo, ba
 <div class="card border-0 mb-2">
 <div class="card-body-full">
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://database.gdriveplayer.us//player.php?type=anime_indo&id=96039&episode=3" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://database.gdriveplayer.us//player.php?type=anime_indo&id=<?php echo $animesingle->id; ?>&episode=<?php echo $eps; ?>" allowfullscreen></iframe>
 </div>
 </div>
 </div>
