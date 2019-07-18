@@ -32,7 +32,7 @@
     <option selected>Episode <?= $eps ?></option>
 <?php 
 for ($x = 1; $x <= $animesingle->total_episode; $x++) {
-    echo "<option value='http://localhost/episode.php?id=$id&eps=$x'>Episode $x";
+    echo "<option value='http://animeid.me/$id/$slug/$x'>Episode $x";
 } 
 ?>
   </select>
