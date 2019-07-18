@@ -9,7 +9,7 @@
 <?php foreach ($animes as $anime) : ?>
     <div class="outbx"">
     <div class="rld"><div class="hovereffect">
-        <a href="http://animeid.me/<?php echo $anime->id; ?>-<?php echo slugify($anime->title); ?>-eps-<?php echo $anime->total_episode; ?>">
+        <a href="http://animeid.me/<?php echo $anime->id; ?>/<?php echo slugify($anime->title); ?>-eps-<?php echo $anime->total_episode; ?>-indonesia/<?php echo $anime->total_episode; ?>">
           <div class="limit">
             <div class="postedon">Episode <?php echo $anime->total_episode; ?></div>
             <img width="225" height="321" src="<?php echo $anime->poster; ?>" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""><h2><?php echo $anime->title; ?></h2></div></a>
