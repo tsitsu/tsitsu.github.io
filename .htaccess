@@ -1,3 +1,3 @@
 RewriteEngine On
-RewriteRule ^([^-]*)-([^-]*)-([^-]*)-sub-indo$ /episode.php?id=$1&slug=$2&eps=$3 [L]
+RewriteRule ^([^/]*)/([^/]*)/([^/]*)$ /episode.php?id=$1&slug=$2&eps=$3 [L]
 RewriteRule ^([^/]*)/([^/]*)$ /anime.php?id=$1&slug=$2 [L]
