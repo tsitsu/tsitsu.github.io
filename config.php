@@ -1,5 +1,5 @@
 <?php
-$web = "DwiKurniaSurya.Net"; 
+$web = "AnimeID.me"; 
 $lastupdate = "https://api.gdriveplayer.us/v1/anime/newest";
 $ambil = file_get_contents($lastupdate);
 $animes = json_decode($ambil);
