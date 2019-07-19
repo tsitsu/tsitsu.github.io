@@ -7,7 +7,8 @@
     <div class="box"><div class="releases" style="padding-top: 1.25rem;"><h6><span>Anime Terbaru</span></h6></div> 
     <div class="ldr">
 <?php foreach ($animes as $anime) : ?>
-    <div class="outbx"">
+    <div class="outbx">
+                       <div class="hovereffect">
     <div class="rld">
         <a href="http://animeid.me/<?php echo $anime->id; ?>/<?php echo slugify($anime->title); ?>-sub-indonesia/<?php echo $anime->total_episode; ?>">
           <div class="limit">
