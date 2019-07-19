@@ -14,7 +14,7 @@
           <div class="limit">
             <div class="postedon">Episode <?php echo $anime->total_episode; ?></div>
             <img width="225" height="321" src="<?php echo $anime->poster; ?>" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""><h2><?php echo $anime->title; ?></h2></div></a>
-    </div></div>  
+    </div></div>  </div>
 <?php endforeach ?>
 </div></div></div>
 
